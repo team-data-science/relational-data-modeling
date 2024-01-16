@@ -1,0 +1,10 @@
+services:
+    db:
+        image: mysql
+        environment:
+            MYSQL_ROOT_PASSWORD: root
+            MYSQL_DATABASE: salesdb
+            MYSQL_USER: user
+            MYSQL_PASSWORD: password
+        ports:
+            - "42333:3306"
