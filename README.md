@@ -7,13 +7,13 @@ Configure a modelingcourse environment with Anaconda, an open source package man
 <br/>Mac: https://docs.conda.io/projects/conda/en/latest/user-guide/install/macos.html
 <br/>Windows: https://docs.conda.io/projects/conda/en/latest/user-guide/install/windows.html
 
-2.Clone the github repository.
+2. Clone the github repository.
 ```
 git clone https://github.com/team-data-science/relational-data-modeling.git
 cd scripts
 ```
 
-3.Running this command will create a new conda environment that is provisioned with most of the libraries you need for this project.
+3. Running this command will create a new conda environment that is provisioned with most of the libraries you need for this project.
 
 ```
 conda env create -f modelingenv.yml
@@ -31,6 +31,6 @@ conda info --envs
 conda clean -tp
 ```
 
-6.To activate the environment:
+6. To activate the environment:
 <br/>OS X and Linux: ```$ source activate modelingcourse```
 <br/>Windows:```$ source activate modelingcourse```
