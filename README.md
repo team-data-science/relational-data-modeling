@@ -32,5 +32,5 @@ conda clean -tp
 ```
 
 6.To activate the environment:
-<br/>OS X and Linux: ```$ source activate dsa2018```
+<br/>OS X and Linux: ```$ source activate modelingcourse```
 <br/>Windows:```$ source activate modelingcourse```
