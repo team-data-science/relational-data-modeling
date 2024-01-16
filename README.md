@@ -3,9 +3,9 @@
 Configure a modelingcourse environment with Anaconda, an open source package management system.
 
 1. Install miniconda on your machine following the instructions:
-Linux: https://docs.conda.io/projects/conda/en/latest/user-guide/install/linux.html
-Mac: https://docs.conda.io/projects/conda/en/latest/user-guide/install/macos.html
-Windows: https://docs.conda.io/projects/conda/en/latest/user-guide/install/windows.html
+<br/>Linux: https://docs.conda.io/projects/conda/en/latest/user-guide/install/linux.html
+<br/>Mac: https://docs.conda.io/projects/conda/en/latest/user-guide/install/macos.html
+<br/>Windows: https://docs.conda.io/projects/conda/en/latest/user-guide/install/windows.html
 
 2.Clone the github repository.
 ```
@@ -32,6 +32,5 @@ conda clean -tp
 ```
 
 6.To activate the environment:
-
-OS X and Linux: ```$ source activate dsa2018```
-Windows:```$ source activate modelingcourse```
+<br/>OS X and Linux: ```$ source activate dsa2018```
+<br/>Windows:```$ source activate modelingcourse```
