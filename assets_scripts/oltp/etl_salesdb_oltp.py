@@ -11,7 +11,7 @@ conn = create_engine("mysql+pymysql://{user}:{pw}@localhost:{host}/{db}"
                                db = "salesdb"))
 
 # Change the path if you have your xls dataset somewhere else
-file_location = r'C:\Users\katep\OneDrive\Desktop\DEV-modeling\assets_files\US_Regional_Sales_Data.xlsx'
+file_location = r'C:\Users\katep\OneDrive\Documents\Andreas\relational-data-modeling\assets_files\US_Regional_Sales_Data.xlsx'
 basic = pd.read_excel(file_location, sheet_name = 0)
 stores = pd.read_excel(file_location, sheet_name = 2)
 products = pd.read_excel(file_location, sheet_name = 3)
